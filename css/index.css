@@ -3,5 +3,22 @@ p {
 }
 h1 {
     color: purple;
-    text-decoration: double;    
+    text-decoration: dashed;    
+}
+a {
+    text-decoration: double;
+    
+}
+a:hover{
+  
+    text-decoration: none;
+    color: tan;
+}
+.green {
+    color: green;
+    text-align: left
+}
+#move:hover{
+    text-align: center;
+    text-decoration: line-through;
 }
