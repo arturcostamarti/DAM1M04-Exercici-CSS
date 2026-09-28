@@ -22,11 +22,11 @@ a:hover{
     text-align: center;
     text-decoration: line-through;
 }
-ol:first-child{
+li:first-child{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: beige;
 }
-ol:last-child{
+li:last-child{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     color: aqua;
@@ -36,4 +36,11 @@ li.clase1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
     color: brown;
+}
+p::before {
+    content: "- ";
+}
+
+p::after {
+    content: " <3";
 }
